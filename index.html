@@ -12,4 +12,46 @@
     <link rel="stylesheet" href="Css/bootstrap.css">
     <link rel="stylesheet" href="Css/style.css">
 </head>
+<body class="container-fluid" style="background-image:url(images/Be.jpg);">
+    <div id="heading">
+        <img src="images/akan.png" alt=" ">
+        <h1>Welcome To Akan Names</h1>
+        <h2 id="get">Get Your Akan Name Easy And Fast!!!</h2>
+    </div>
+    <div class="overlay">
+        <div class="container">
+            <h2>Enter Your Details Here!</h2>
+            <form name="myForm" class="form" onsubmit="validate();">
+                <div class="form-group">
+                    <label for="number">Year of Birth</label>
+                    <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2018 if born in 2018" name="year">
+                </div>
+                <div class="form-group">
+                  <label for="month">Month of Birth:</label>
+                  <input type="number" class="form-control" id="month" placeholder="Month of Birth eg 12 for December" name="month">  
+                </div>
+                <div class="form-group">
+                    <label for="form-group"></label>
+                    <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 31" name="date">
+                </div>
+                <div class="form-group">
+                    <label for="month">Gender</label>
+                    <div class="form-check-inline">
+                        <label class="form-check-inline">
+                            <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+                <br>
+            </form>
+            
+        </div>
+    </div>
+</body>
 </html>
