@@ -9,7 +9,7 @@
 This project is a web application that takes the user's birthday and calculates the day of the week they were born depending ontheir gender outputs their Akan Name.
 
 ## Screenshot
-<>
+<img src="images/screenshot.jpg">
 
 ## Live page
 https://joymush.github.io/akannames/
